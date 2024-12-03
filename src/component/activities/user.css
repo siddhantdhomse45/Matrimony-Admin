@@ -1,0 +1,58 @@
+.user-activities {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-activities h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .activities-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .activity-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .activity-type {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  .activity-time {
+    font-style: italic;
+  }
+  
+  .activity-description {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .activity-item:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .activity-item:hover .activity-header .activity-type {
+    color: #2196f3; /* Change color on hover */
+  }
+  

@@ -1,0 +1,156 @@
+/* .widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47); 
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);     
+  border-radius: 10px;
+  height: 100px;
+  
+}
+
+.lefts,
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   
+}
+ 
+.lefts {
+  justify-content: center; 
+  
+} 
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+  margin: 0; 
+  top: 5px; 
+  left: 0px; 
+}
+
+.counter1 {
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+.links {
+  width: max-content;
+  font-size: 14px;
+  border-bottom: 1px solid gray;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.percentage.positive {
+  color: green;
+  margin-left: 50px;
+}
+
+.percentage.negative {
+  color: red;
+}
+
+.icon {
+  
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+  
+}    */
+
+
+
+.widget {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+  background-color: #ffffff; 
+  margin: 10px;   
+  transition: transform 0.2s ease-in-out;   
+}
+
+.widget:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  
+}
+
+.lefts {
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+}
+
+.title {
+  font-size: 14px; 
+  font-weight: bold; 
+  color: #333;
+  margin-bottom: 100px;   
+}
+
+.counters {
+  font-size: 24px;  
+  font-weight: bold;  
+  color: #333;   
+  margin: 10px 0;
+  margin-right: 50px;
+}
+
+.links {
+  font-size: 12px;  
+  color: #007bff;   
+  cursor: pointer;  
+  text-decoration: underline;   
+  margin-top: 5px; 
+}
+
+.links:hover {
+  color: #0056b3;   
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;  
+  justify-content: space-between; 
+    
+}
+
+.percentage {
+  font-size: 16px;  
+  font-weight: bold; 
+  display: flex;
+  align-items: center;  
+  color: #4caf50;   
+  margin-bottom: 110px;  
+}
+
+.percentage.positive {
+  color: #4caf50;   
+}
+
+.percentage.negative {
+    color: #f44336;   
+  }
+
+.icon2 {
+  font-size: 30px;  
+  padding: 10px; 
+  border-radius: 50%; 
+}
+
+.icon {
+  font-size: 30px; 
+  padding: 10px;  
+  border-radius: 50%;   
+}

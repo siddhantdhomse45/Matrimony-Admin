@@ -1,0 +1,156 @@
+ 
+.match {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;  
+}
+
+.matchContainer {
+  flex: 3;
+  padding: 20px;
+  max-width: 80%; 
+}
+
+.matchmaking-stats {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ 
+.matchmaking-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.matchmaking-header h2 {
+  font-size: 32px;
+  color: #333;
+  font-weight: 600;
+}
+
+ 
+.stats-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap; 
+}
+
+.match-success-rate {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px; 
+  
+}
+
+.match-success-rate h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.match-success-rate p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4caf50; 
+  margin: 0;
+}
+ 
+.daily-matches-chart {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.daily-matches-chart h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ 
+.top-matching-profiles {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-matching-profiles h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.top-matching-profiles table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.top-matching-profiles th,
+.top-matching-profiles td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.top-matching-profiles th {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+.top-matching-profiles tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.top-matching-profiles tr:hover {
+  background-color: #f1f1f1;
+}
+
+ 
+@media (max-width: 768px) {
+  .match-success-rate {
+    width: 45%;
+  }
+
+  .stats-summary {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .match-success-rate,
+  .daily-matches-chart,
+  .top-matching-profiles {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .matchmaking-header h2 {
+    font-size: 26px;
+  }
+
+  .stats-summary {
+    flex-direction: column;
+  }
+
+  .match-success-rate {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .top-matching-profiles table {
+    font-size: 12px;
+  }
+}
